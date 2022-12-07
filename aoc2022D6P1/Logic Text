@@ -1,0 +1,3 @@
+Brute force
+Basically, I make alot of conditions, and if the conditions are all satified, I cout the index of the last character plus 1 and I end the iteration
+So my condition are that the first letter, second letter, third letter and fourth letter are all not the same, check through everything.
