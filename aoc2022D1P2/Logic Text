@@ -1,2 +1,0 @@
-Similar to part 1, in terms of finding the number of calories carried by each elf, and push the values into a vector
-This time, after finding the first highest value, I iterate through the vector and remove that value.
