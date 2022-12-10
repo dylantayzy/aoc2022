@@ -1,8 +1,0 @@
-I read line by line
-My approach is to split all the numbers into individual strings using .substr()
-Then stoi the numbers to get them as integers.
-Label them as lower and upper bounds of pair 1 and pair 2
-Then compare the lowerbounds and the upperbounds to find ranges which one pair contain the other
-Furthermore, if the first comparison passes, I reset by setting the value of the lower and upperbounds so that it won't pass the second comparison or else I double count.
-
-For part 2, mostly similar to part 1, just with additional conditions to add to the count
