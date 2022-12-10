@@ -1,0 +1,16 @@
+I read the input line by line
+Within each line is a string
+And the string splits in the middle to form the order of each rucksack
+So I make two strings, 1 for rucksack 1 and 1 for rucksack 2
+I iterate through the string to find the common letter between each of them
+Once a common letter is found, I push the repeated letter into a vector, then empty both strings and go to the next rucksack pair
+After all inputs are processed and all repeats are found, I iterate through the vector containing the repeated letters.
+For each element of the vector, I find the vector within the vector of alphabets I created (a, b, c ...)
+I get the index from the vector of alphabets and use that index to locate the number associated with that letter using another vector of numbers (1, 2, 3...)
+Making sure that the indexes of the number vector correspond to the index of the letter that is associated with that value.
+Finally, output a sum.
+
+For part 2, it's mostly the same as part 1, just with an additional check of rucksack3
+So, I iterate through the input set, and push back the lines into a vector of strings
+Then I iterate through the vector "rucksacks", setting rucksack1 to be rucksacks[3*i] and rucksack2 to be rucksacks[3*i+1] and on and on so that I can group up 3 lines
+The rest is the same.
