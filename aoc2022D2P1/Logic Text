@@ -4,3 +4,7 @@ A X C Y (repeated with other letters)
 I exploit the periodic nature of the string but using indexes 0, 2, 4, 6... to count the number of 'X', 'Y', and 'Z' and add it to the xcount, ycount and zcount
 Then I use indexes 0, 4, 8, 12... to process each match individually to get the score out
 Using multiple "if" statements to compute the score manually
+
+For part 2, I remove the xcount, ycount and zcount, since we are not counting the Xs, Ys and Zs.
+I change the if conditions to be specific to the letter and the win/lose/draw state of the particular game 
+Eg. if A X, then A means rock and X means lose so my score adds by 3 (scissors)
