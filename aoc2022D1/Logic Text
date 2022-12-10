@@ -1,0 +1,6 @@
+In this solution, my logic is that, I read a line in the input, then if the line contains a number, I add it to a variable called sum. 
+If the line is empty, I end the summation, and compare it to the current biggest sum I found previously.
+Then, I reset the variable sum to 0 and repeat.
+I iterate until the entire input is finished and output the largest sum I found
+
+For part 2, it's similar to part 1, but the vector I have, I iterate through to find that highest value and remove it to find the second highest.
