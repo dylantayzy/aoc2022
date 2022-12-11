@@ -6,3 +6,12 @@ Then I set the new highest to this value that exceeded the previous value
 Finally, I set the value that I just pushed back to 0 on the 2D vector (just like marking off a checked tree)
 Now, going from the right side of the grid, I make an additional check where grid_left[i][j] == grid_right[i][j] so if it's not equal, I know the tree is already accounted for so I mark it off witout pushing it into the vector
 Output the visible vector size and add the external trees, to get my final answer.
+
+For part 2, simpler problem.
+I iterate through the internal trees within the grid (cause all the scenic points for external trees are 0)
+For each tree, I set their height as the highest value first, then I iterate to the left all the way to the edge of the grid or to the tree that has the same or taller height.
+Push back all the values of the trees I go through to a vector known as left
+Do the same for all 4 directions
+Finally, I find the scenic score for that particular tree
+Find the highest for all scenic scores
+Output and answer
