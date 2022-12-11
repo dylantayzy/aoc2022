@@ -1,1 +1,8 @@
-
+Make 4 grids representing the 4 different viewpoints (using 2D vectors)
+So I start with the grid that I look on from the left side of the grid
+I set the value of the highest to be the first value of the row for each of the rows checked
+Then I iterate through, when I meet a value higher than the current set highest value, I push back this value into a vector called visible
+Then I set the new highest to this value that exceeded the previous value
+Finally, I set the value that I just pushed back to 0 on the 2D vector (just like marking off a checked tree)
+Now, going from the right side of the grid, I make an additional check where grid_left[i][j] == grid_right[i][j] so if it's not equal, I know the tree is already accounted for so I mark it off witout pushing it into the vector
+Output the visible vector size and add the external trees, to get my final answer.
