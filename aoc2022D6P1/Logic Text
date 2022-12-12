@@ -1,3 +1,9 @@
 Brute force
 Basically, I make alot of conditions, and if the conditions are all satified, I cout the index of the last character plus 1 and I end the iteration
 So my condition are that the first letter, second letter, third letter and fourth letter are all not the same, check through everything.
+
+For part 2, I took a different approach
+I substr 14 letters from the original input set
+I make a set of the letters within these 14 letters
+If the length of the set is 14 (since sets discard repeated characters), then I know I have a string of no repeat letters
+My output is the number of iterations I made + 14
