@@ -5,3 +5,9 @@ Then I push back the last element of the oriStack to the newStack and remove the
 Iterate through every line using case by case scenario (by making many ifs statements to find which stack I need to look at)
 After the iteration have finished, I push back the last element of each stack into a vector called answer
 Output the elements of answer and that's the... answer.
+
+For part 2, I took a different approach
+I setted the stacks to be of strings, not of a vector because I needed to move multiple letters at once
+I substring the number of letters to move
+Then I added strings
+Repeat the process for each line till I get the final answer
