@@ -1,0 +1,7 @@
+set cycle to 0, x to 1 and put a variable called sum (the output at the end)
+with each line, because it's quite periodic, check if the first four character is "noop" or "addx"
+If noop, add 1 to cycle
+If addx, add 2 to cycle, then check if the index 5 of the string is '-' or not '-', which would indicate if Im adding a negative or positive integer
+Each time a cycle is added, check if the int cycle is 20, 60, 100, 140, 180, or 220
+If so, add (x * cycle) to sum and continue processing the input set
+Output sum
